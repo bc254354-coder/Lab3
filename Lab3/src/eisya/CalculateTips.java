@@ -9,7 +9,8 @@ public class CalculateTips {
         System.out.print("Enter the subtotal and a gratuity rate: ");
         double subtotal = input.nextDouble();
         double gratuityRate = input.nextDouble();
-
+        
+        // Calculations
         double gratuity = subtotal * gratuityRate / 100;
         double total = subtotal + gratuity;
 
